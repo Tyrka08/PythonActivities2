@@ -1,4 +1,4 @@
-1. Verificar se um número é posítivo, negativo ou zero.
+#1. Verificar se um número é posítivo, negativo ou zero.
   
 numero = float(input('digite um número: '))
 if numero == 0:
@@ -10,7 +10,7 @@ elif numero > 0:
 elif numero < 0:
   print(f'{numero} seu numero é negativo')
 
-2. Determinar se um ano é bissexto.
+#2. Determinar se um ano é bissexto.
 
 ano = int(input('digite seu ano: '))
 if ano % 4 == 0:
@@ -19,7 +19,7 @@ if ano % 4 == 0:
 else:
   print(f'{ano} seu ano não é bissexto')
 
-3. Verificar se um triángulo é equilátero, isósceles ou escaleno.
+#3. Verificar se um triángulo é equilátero, isósceles ou escaleno.
 
 lado1 = float(input('digite o lado 1: '))
 lado2 = float(input('digite o lado 2: '))
@@ -34,7 +34,7 @@ elif lado1 == lado2 or lado1 == lado3 or lado2 == lado3:
 else:
   print("seu triângulo é escaleno")
 
-4. Calcular o desconto em um produto com base no valor da compra.
+#4. Calcular o desconto em um produto com base no valor da compra.
 
 preço = float(input("digite o preço do produto: "))
 desconto = float(input("digite o desconto do produto: "))
@@ -47,7 +47,7 @@ preçoreal = preço - descontototal
 
 print(f'o preço inicial foi de {preço} e com o desconto fica {preçoreal}')
 
-5. Determinar o maior entre três números.
+#5. Determinar o maior entre três números.
 
 numero1 = float(input("digite o primeiro numero: "))
 numero2 = float(input("digite o segundo numero: "))
@@ -62,7 +62,7 @@ elif numero2 > numero1 and numero2 > numero3:
 elif numero3 > numero1 and numero3 > numero2:
   print("o terceiro é o maior")
 
-6. Converter uma nota em conceito (A, B, C. D ou F) com base na pontuação. Ex. (A = 10, B = 8.)
+#6. Converter uma nota em conceito (A, B, C. D ou F) com base na pontuação. Ex. (A = 10, B = 8.)
 
 nota = float(input("digite sua nota: "))
 
@@ -81,7 +81,7 @@ elif nota > 3:
 else:
   print("sua nota é F")
 
-7. Verificar se um número é divisivel por outro número.
+#7. Verificar se um número é divisivel por outro número.
 
 numero1 = float(input("digite o primeiro numero: "))
 numero2 = float(input("digite o segundo numero: "))
@@ -93,7 +93,7 @@ else:
   print("não é divisivel")
 
 
-8. Verificar se uma pessoa pode votar com base na idade.
+#8. Verificar se uma pessoa pode votar com base na idade.
 
 idade = int(input("digite sua idade: "))
 
@@ -104,7 +104,7 @@ else:
   print(f'sua idade é {idade}, você não tem idade para votar')
 
 
-9. Calcular a raiz quadrada de um número, se for positivo, senão exibir uma mensagem de erro.
+#9. Calcular a raiz quadrada de um número, se for positivo, senão exibir uma mensagem de erro.
 
 numero = int(input("digite seu numero: "))
 
@@ -116,7 +116,7 @@ else:
   print("ERROR")
 
 
-10. Determinar se um número é um quadrado perfeito (o resultado de um número inteiro multiplicar
+#10. Determinar se um número é um quadrado perfeito (o resultado de um número inteiro multiplicar
 por ele mesmo].
 
 numero = int(input("digite a número: "))
