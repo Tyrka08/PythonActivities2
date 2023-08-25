@@ -119,11 +119,12 @@ else:
 #10. Determinar se um número é um quadrado perfeito (o resultado de um número inteiro multiplicar
 por ele mesmo].
 
-numero = int(input("digite a número: "))
-quadrado = numero * numero
+from math import sqrt
+numero = int(input("digite um número: "))
+raiz = sqrt(numero)
 
-if numero > 0:
-  print(f'o numero {numero} ao quadrado é {quadrado}, e é perfeito')
+if numero % raiz == 0:
+  print(f'{numero} é um quadrado perfeito')
 
 else:
-  print(f'seu número {numero}, não é um quadrado perfeito')
+  print(f'{numero} não é um quadrado perfeito')
